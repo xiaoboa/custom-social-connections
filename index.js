@@ -8,7 +8,7 @@ app.use(express.static(__dirname + '/public'));
 
 app.use(function (req, res, next) {
   auth0({
-    clientName: 'Custom Social Connections',
+    clientName: 'Custom Social Connections Demo',
     scopes:     'read:connections create:connections update:connections delete:connections read:clients',
     audience:   function (req) {
       return 'https://'+req.webtaskContext.data.AUTH0_DOMAIN+'/api/v2/';
