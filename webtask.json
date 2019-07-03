@@ -1,6 +1,6 @@
 {
-  "title": "Custom Social Connections",
-  "name": "custom-social-connections",
+  "title": "Custom Social Connections Demo",
+  "name": "custom-social-connections Demo",
   "version": "1.2.1",
   "author": "auth0",
   "description": "This application gives Auth0 customers the possibility to manage custom social connections in an easy way.",
